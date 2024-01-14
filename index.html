@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Girum Basha</h1>
+
+          <p class="title">Copywriter</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">girumbasha0@gmail.com</a>
+            </div>
+
+          </li>
+
+        
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li> -->
+
+         
+
+          <li class="social__item">
+            <a href="https://www.instagram.com/girumdev/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a href="https://twitter.com/girumdev" class="social-link" target="_blank">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li> -->
+
+        
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+        
+
+            <p class="first-paragrah">
+         If you're a business owner with your own brand, I'm here to help you build strong relationships with your
+          audience and connect with them through your email and social media with your solutions and make them to take action. 
+          </p>
+          <p class="first-paragrah">This Will Scale & Grow Your Business.
+            Email Copywriting is
+            Crucial For Any Business.</p>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Here’s What I’ll Create For You: ↓</h3>
+       
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Email Copywriting</h4>
+                
+                <p class="service-item-text">✅ Engaging Emails</p>
+                <p class="service-item-text"> ✅ Personalized Emails</p>
+                <p class="service-item-text">
+              Your product is very valuable. I'll help you convince customers to buy it.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.jpg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Ads Copywriting</h4>
+
+                <p class="service-item-text">
+                  I create ads that grab attention and persuade. Let's make your brand impossible to ignore.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-content.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Writing</h4>
+
+                <p class="service-item-text">
+                  Engaging blogs, articles, and website content that speaks to your audience,
+                   making your online presence truly memorable.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-sales.jpg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Your Landing Page</h4>
+                <p class="service-item-text"> </p>
+                <p class="service-item-text">
+                
+                  We take them to an environment with less distractions and your SHOWROOM, where you can control their experience and  into your world to be sold to.
+                  
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                 
+                </figure>
+
+             
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>- Wendy A.</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Wanted to thank you Girum for your copywriting service. <br/><br>
+
+                    You explained to me what it was, 
+                    and since you showed me some of your previous work<br>
+                     I knew I’d get the treatment I wanted for my newsletter. <br/><br>
+                    
+                    I used Chatgpt before you hit me up, and I can say this, AI is pretty much useless if you have an actual copywriter lol.
+                    
+                 <br/>  <br> This entire idea of catching attention is very interesting to me and it’s something I’ll be improving on now too with the help from Girum.
+                    
+                   <br/> Thanks Girum for the professional help man."
+                    
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>- Dan S. </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  "The copies that you wrote for me definitely have increased my revenue, sales and engagement.<br/><br>
+
+                    holy **** man, this type of marketing I have never seen before.Thank you Girum ."
+                
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                 
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>- Wade M.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Girum came into my DMs a while ago and offered some free work in increasing 
+                    my open rates and avoiding my emails getting sent to spam. <br/>
+                    Assuming I did something wrong there 😂 but it simply got fixed.<br/><br/>
+
+                    But genuinely I appreciate the work you did Girum 
+                    and I'm grateful for fixing that issue for me.
+                    <br><br> Technically that increases my sales.
+                      I'll also say that Girum writes a lot of quality
+                     emails and never misses a single word that is needed. <br>
+                     I appreciate everything he did and it's extremely professional for me. Thank you, Girum."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                 
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>- Ashwinn T.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "The process was incredible from start to finish. Working with Girum felt completely effortless."
+                    
+                    
+                    
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+             
+              </figure>
+
+           
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+                <p>
+                  I highly recommend your email writing services to any business looking to increase sales.
+
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+       
+      </article>
+
+
+
+
+     
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        
+        </header>
+
+        <section class="projects">
+          <p class="portfolio-description"></p>
+          <ul class="filter-list">
+
+            <!-- <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Fitness</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Beauty</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Online English Class</button>
+            </li> -->
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <!-- <div class="select-value" data-selecct-value>Select category</div> -->
+
+              <div class="select-icon">
+                <!-- <ion-icon name="chevron-down"></ion-icon> -->
+              </div>
+
+            </button>
+          
+
+            <ul class="select-list">
+<!-- 
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li> -->
+              
+
+            </ul>
+
+          </div>
+             
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://docs.google.com/document/d/1KTORV0eoCWR5spoRcH4FGSX1Y3t-xg63A0qzr-O_yCg/edit?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <!-- <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy"> -->
+                </figure>
+
+                <h3 class="project-title">Email 1</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://docs.google.com/document/d/1q_JeUC38lpnjoIF6oN1R3jGSTP2_P7kYxmAWkjgCfiQ/edit?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <!-- <img src="./assets/images/project-2.png" alt="orizon" loading="lazy"> -->
+                </figure>
+
+                <h3 class="project-title">Email 2</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://docs.google.com/document/d/1Ktfi_RKbNNHhaX17HgbPmu8pu-P1H_Hv_UAoS42j6CI/edit?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <!-- <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy"> -->
+                </figure>
+
+                <h3 class="project-title">Email 3</h3>
+
+               
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://docs.google.com/document/d/1pLtnQ6GEuTV2kXsU7ZQcG5B0ZtaIFjZiiT9Dr5CvLKU/edit?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <!-- <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy"> -->
+                </figure>
+
+                <h3 class="project-title">Email 4</h3>
+
+                <!-- <p class="project-category">Applications</p> -->
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Email 5</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Email 6</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Email 7</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Email 8</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Email 9</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+     
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+       
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Outreach Platforms</h3>
+
+          <!-- <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form> -->
+          <p class='contact__text'>Shoot me a message at any of my 3 Platforms.</p>
+
+          <br/>
+
+          <li class="contact__li"><b>Email Address: </b>girumbasha0@gmail.com</li>
+          
+          <ul class="contacts__list">
+
+            <li class="contact__item">
+  
+             <!-- <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div> 
+  
+              <div class="contact__info">
+                <p class="contact__title">Email</p>
+  
+               girumbasha0@gmail.com
+
+              </div>
+   -->
+            </li>
+            <ul class="social-list">
+
+    
+             
+    
+              <li class="social__item">
+                <a href="https://www.instagram.com/girumdev/" class="social-link" target="_blank">
+                
+                  <button class="dm-button" >   <ion-icon name="logo-instagram"></ion-icon>Instagram DM</button>
+                </a>
+              </li>
+              
+            
+              <li class="social__item">
+                <a href="https://twitter.com/girumdev" class="social-link" target="_blank">
+                 
+                  <button class="dm-button"> <ion-icon name="logo-twitter"></ion-icon> Twitter DM</button>
+                </a>
+              </li>
+              
+             
+              
+             
+            </ul>
+          
+  
+            </li>
+  
+          </ul>
+
+        </section>
+        
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
